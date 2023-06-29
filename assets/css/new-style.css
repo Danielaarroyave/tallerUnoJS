@@ -1,0 +1,122 @@
+body {
+    background: #f3e0e2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: sans-serif;
+	height: 100vh;
+	margin: -20px 0 50px;
+}
+
+h1 {
+	font-weight: 900;
+	margin: 0;
+	font-size: 30px;
+}
+
+p {
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+}
+
+a {
+	color: #423f3f;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+form {
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+	text-align: center;
+}
+
+input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+
+.fa {
+	padding: 5px;
+	font-size: 30px !important;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 60%;
+	border-color: #edeaea;
+	border-style: solid;
+	background: #fff;
+	color: #423f3f;
+	margin: 30px 0;
+}
+
+.fa-facebook {
+  	top: 50%;
+}
+  
+.fa-twitter {
+  	top: 50%;
+}
+
+.panel {
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	min-height: 480px;
+}
+
+.panel .datos{
+    position: absolute;
+	top: 0;
+	height: 100%;
+    left: 0;
+	width: 50%;
+	z-index: 2;
+}
+
+.panel .mensaje{
+	background: linear-gradient(to right, #ff464e, #FF416C);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	color: #FFFFFF;
+	left: 50%;
+	right: 0;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 40px;
+	text-align: center;
+	top: 0;
+	height: 100%;
+	width: 40%;
+}
+
+.olvido-pass {
+	margin: 15px 0;
+}
+
+.button {
+	border-radius: 50px;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	width: 50%;
+}
